@@ -949,11 +949,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Temp\\eCommerce-App\\Tests\\Tests.csproj",
+      "projectUniqueName": "C:\\Temp\\eCommerce-App\\src\\Tests\\Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "C:\\Temp\\eCommerce-App\\Tests\\Tests.csproj",
+      "projectPath": "C:\\Temp\\eCommerce-App\\src\\Tests\\Tests.csproj",
       "packagesPath": "C:\\Users\\Brito\\.nuget\\packages\\",
-      "outputPath": "C:\\Temp\\eCommerce-App\\Tests\\obj\\",
+      "outputPath": "C:\\Temp\\eCommerce-App\\src\\Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

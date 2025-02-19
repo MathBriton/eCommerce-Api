@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Temp\\eCommerce-App\\Domain\\Domain.csproj": {}
+    "C:\\Temp\\eCommerce-App\\src\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Temp\\eCommerce-App\\Domain\\Domain.csproj": {
+    "C:\\Temp\\eCommerce-App\\src\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Temp\\eCommerce-App\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Temp\\eCommerce-App\\src\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Temp\\eCommerce-App\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Temp\\eCommerce-App\\src\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Brito\\.nuget\\packages\\",
-        "outputPath": "C:\\Temp\\eCommerce-App\\Domain\\obj\\",
+        "outputPath": "C:\\Temp\\eCommerce-App\\src\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

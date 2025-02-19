@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GZ5TZtyYpzc=",
+  "dgSpecHash": "6Z4ZKxhGSII=",
   "success": true,
-  "projectFilePath": "C:\\Temp\\eCommerce-App\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Temp\\eCommerce-App\\src\\Application\\Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Temp\\eCommerce-App\\API\\API.csproj": {}
+    "C:\\Temp\\eCommerce-App\\src\\Api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Temp\\eCommerce-App\\API\\API.csproj": {
+    "C:\\Temp\\eCommerce-App\\src\\Api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Temp\\eCommerce-App\\API\\API.csproj",
+        "projectUniqueName": "C:\\Temp\\eCommerce-App\\src\\Api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Temp\\eCommerce-App\\API\\API.csproj",
+        "projectPath": "C:\\Temp\\eCommerce-App\\src\\Api\\API.csproj",
         "packagesPath": "C:\\Users\\Brito\\.nuget\\packages\\",
-        "outputPath": "C:\\Temp\\eCommerce-App\\API\\obj\\",
+        "outputPath": "C:\\Temp\\eCommerce-App\\src\\Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
