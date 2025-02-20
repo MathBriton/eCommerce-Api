@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Temp\\eCommerce-App\\src\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Temp\\eCommerce-App\\Copia\\proof-of-concept-ecommerce-dotnet-8-angular-stripe-master\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Temp\\eCommerce-App\\src\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Temp\\eCommerce-App\\Copia\\proof-of-concept-ecommerce-dotnet-8-angular-stripe-master\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Temp\\eCommerce-App\\src\\Infrastructure\\Infrastructure.csproj",
-        "projectName": "Infrastructure",
-        "projectPath": "C:\\Temp\\eCommerce-App\\src\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Temp\\eCommerce-App\\Copia\\proof-of-concept-ecommerce-dotnet-8-angular-stripe-master\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "C:\\Temp\\eCommerce-App\\Copia\\proof-of-concept-ecommerce-dotnet-8-angular-stripe-master\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Brito\\.nuget\\packages\\",
-        "outputPath": "C:\\Temp\\eCommerce-App\\src\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Temp\\eCommerce-App\\Copia\\proof-of-concept-ecommerce-dotnet-8-angular-stripe-master\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,15 +22,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -47,8 +47,109 @@
         "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Temp\\eCommerce-App\\Copia\\proof-of-concept-ecommerce-dotnet-8-angular-stripe-master\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Temp\\eCommerce-App\\Copia\\proof-of-concept-ecommerce-dotnet-8-angular-stripe-master\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "C:\\Temp\\eCommerce-App\\Copia\\proof-of-concept-ecommerce-dotnet-8-angular-stripe-master\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Brito\\.nuget\\packages\\",
+        "outputPath": "C:\\Temp\\eCommerce-App\\Copia\\proof-of-concept-ecommerce-dotnet-8-angular-stripe-master\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Brito\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Temp\\eCommerce-App\\Copia\\proof-of-concept-ecommerce-dotnet-8-angular-stripe-master\\Core\\Core.csproj": {
+                "projectPath": "C:\\Temp\\eCommerce-App\\Copia\\proof-of-concept-ecommerce-dotnet-8-angular-stripe-master\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.11.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[45.4.0, )"
+            },
+            "System.Formats.Asn1": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
