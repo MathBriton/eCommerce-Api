@@ -1,0 +1,55 @@
+### as admin
+
+POST https://localhost:5001/api/login?useCookies=true
+content-type: application/json
+
+{
+  "email": "admin@test.com",
+  "password": "Pa$$w0rd"
+}
+
+###
+
+GET https://localhost:5001/api/buggy/admin-secret
+
+###
+
+GET https://localhost:5001/api/account/user-info
+
+
+### 
+
+GET https://localhost:5001/api/admin/orders
+
+### 
+
+GET https://localhost:5001/api/admin/orders/1
+
+
+
+
+
+
+
+
+### as a not admin --------------------
+
+
+
+
+POST https://localhost:5001/api/login?useCookies=true
+content-type: application/json
+
+{
+  "email": "test@test2.com",
+  "password": "Pa$$w0rd"
+}
+
+###
+
+
+GET https://localhost:5001/api/buggy/admin-secret
+
+###
+
+GET https://localhost:5001/api/account/user-info

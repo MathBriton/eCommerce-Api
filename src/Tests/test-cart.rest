@@ -1,0 +1,27 @@
+GET https://localhost:5001/api/cart?id=cart1
+
+
+###
+
+POST https://localhost:5001/api/cart
+content-type: application/json
+
+{
+  "id": "cart1",
+  "items": [
+    {
+      "productName":"Product 2",
+      "price": 34.23,
+      "pictureUrl": "/images/producst/boot-ang1.png",
+      "type": "any type 2",
+      "brand": "any brand 2",
+      "productId": 18,
+      "quantity": 3
+    }
+  ]
+}
+
+###
+
+DELETE  https://localhost:5001/api/cart?id=cart1
+

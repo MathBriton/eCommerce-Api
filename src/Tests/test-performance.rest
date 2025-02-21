@@ -1,0 +1,42 @@
+### as admin
+
+POST https://localhost:5001/api/login?useCookies=true
+content-type: application/json
+
+{
+  "email": "admin@test.com",
+  "password": "Pa$$w0rd"
+}
+
+
+###
+
+GET https://localhost:5001/api/products
+
+###
+
+GET https://localhost:5001/api/products/brands
+
+
+###
+
+GET https://localhost:5001/api/products/types
+
+
+### 
+
+POST https://localhost:5001/api/products
+content-type: application/json
+
+{
+  "name":"Product Performance 4",
+  "description": "Testing Performance",
+  "price": 55.34,
+  "pictureUrl": "https://media.istockphoto.com/id/1455397163/es/foto/retrato-de-una-chica-india-oscura-bonita.webp?s=2048x2048&w=is&k=20&c=1hIi_71ep7mIQhUV_8d97alkfmLzN3t6gjerOB7rwNM=",
+  "type": "any type 2",
+  "brand": "any brand 2",
+  "quantityInStock": 299
+}
+
+
+###

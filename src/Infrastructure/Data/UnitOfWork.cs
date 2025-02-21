@@ -1,6 +1,4 @@
 using System.Collections.Concurrent;
-using Core.Entities;
-using Core.Interfaces;
 
 namespace Infrastructure.Data;
 
