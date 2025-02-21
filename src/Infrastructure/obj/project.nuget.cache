@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TAPWmGObhC4=",
+  "dgSpecHash": "VfXKvpcfpUo=",
   "success": true,
-  "projectFilePath": "C:\\Temp\\eCommerce-App\\Copia\\proof-of-concept-ecommerce-dotnet-8-angular-stripe-master\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Temp\\eCommerce-App\\src\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Brito\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Brito\\.nuget\\packages\\azure.identity\\1.11.0\\azure.identity.1.11.0.nupkg.sha512",
