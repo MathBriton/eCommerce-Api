@@ -1,10 +1,7 @@
 using API.DTOs;
 using API.Extensions;
 using API.RequestHelpers;
-using Core.Entities;
-using Core.Entities.OrderAggregate;
-using Core.Interfaces;
-using Core.Specifications;
+
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
