@@ -1,0 +1,29 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Information"
+    }
+  },
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=localhost,1433;Database=theblackcat;User Id=SA;Password=Password@1;TrustServerCertificate=True",
+    "Redis": "host:port,password=pwd,ssl=true,abortConnection=false"
+  }
+}
+
+command to use Redis
+redis-cli -tls -u redis://default:AbALAAIjcDEwNjc0ZDAyZTkyNjE0MFioWYwYz@immortal-zebra-45067.upstash.io:6379
+
+
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Information"
+    }
+  },
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=localhost,1433;Database=theblackcat;User Id=SA;Password=Password@1;TrustServerCertificate=True",
+    "Redis": "localhost"
+  }
+}
